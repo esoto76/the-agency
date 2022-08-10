@@ -2,6 +2,7 @@ import { fileURLToPath, URL } from "node:url";
 import Pages from "vite-plugin-pages";
 import generateSitemap from "vite-plugin-pages-sitemap";
 import AutoImport from "unplugin-auto-import/vite";
+import Components from "unplugin-vue-components/vite";
 
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
@@ -33,6 +34,7 @@ export default defineConfig({
         globalsPropValue: true,
       },
     }),
+    Components({ dts: "src/components.d.ts" }),
   ],
   resolve: {
     alias: {
