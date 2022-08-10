@@ -1,0 +1,14 @@
+html {
+  @apply bg-ta-grey-3 text-d-16-px h-full font-sans;
+}
+body {
+  @apply overflow-x-hidden min-h-full;
+}
+
+#app {
+  @apply overflow-hidden relative bg-ta-grey-3 min-h-screen min-w-d-320-px p-d-4-px block;
+}
+
+.trans-out-700 {
+  @apply ease-out duration-700 transition-all;
+}
