@@ -40,6 +40,14 @@
   @apply h-auto;
 }
 
+.footer-bx {
+  @apply overflow-hidden w-full flex items-center content-center justify-center;
+
+  &.is-eho {
+    @apply h-d-88-px w-d-88-px;
+  }
+}
+
 @screen xl-med {
   .navbar {
     @apply h-d-72-px;

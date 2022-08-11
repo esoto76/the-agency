@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    EhoSvg: typeof import('./components/EhoSvg.vue')['default']
     LogoSvg: typeof import('./components/LogoSvg.vue')['default']
     Navbox: typeof import('./components/Navbox.vue')['default']
   }
