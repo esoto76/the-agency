@@ -6,4 +6,5 @@ import Navbox from "./components/Navbox.vue";
 <template>
   <Navbox />
   <div class="card-con content-bx">content box</div>
+  <footer class="card-con foot-bx">footer</footer>
 </template>
