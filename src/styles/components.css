@@ -3,6 +3,10 @@
   @apply overflow-hidden p-d-4-px w-full;
 }
 
+.navbox {
+  @apply fixed top-0 left-0 right-0 z-50;
+}
+
 .title-bx {
   @apply overflow-hidden w-full text-center select-none text-agency-gray uppercase font-bold leading-none;
 }
