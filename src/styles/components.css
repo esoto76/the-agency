@@ -31,9 +31,17 @@
   }
 }
 
+.content-bx {
+  @apply pt-d-88-px trans-out-700 min-h-screen;
+}
+
 @screen xl-med {
   .navbar {
     @apply h-d-72-px;
+  }
+
+  .content-bx {
+    @apply pt-d-80-px;
   }
 }
 
@@ -46,5 +54,9 @@
         @apply tracking-0.15;
       }
     }
+  }
+
+  .content-bx {
+    @apply pt-d-72-px;
   }
 }

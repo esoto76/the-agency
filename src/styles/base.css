@@ -6,7 +6,7 @@ body {
 }
 
 #app {
-  @apply overflow-hidden relative bg-ta-grey-3 min-h-screen min-w-d-320-px p-d-4-px block;
+  @apply overflow-hidden relative bg-ta-grey-3 min-h-screen min-w-d-320-px  block;
 }
 
 .trans-out-700 {
