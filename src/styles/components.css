@@ -3,15 +3,27 @@
   @apply overflow-hidden p-d-4-px w-full;
 }
 
+.title-bx {
+  @apply overflow-hidden w-full text-center select-none text-agency-gray uppercase font-bold leading-none;
+}
+
 .navbar {
   @apply flex flex-nowrap bg-agency-white h-d-80-px trans-out-700  items-center content-center justify-center min-w-d-240-px;
 }
 
 .navbar-bx {
-  @apply overflow-hidden flex flex-col items-center content-center justify-center w-full h-full max-h-full;
+  @apply overflow-hidden flex flex-col items-center trans-out-700 content-center justify-center w-full h-full max-h-full;
 
   &.is-logo {
-    @apply max-h-d-72-px;
+    @apply max-h-d-64-px max-w-screen-sm;
+
+    #logoSvg {
+      @apply -mt-d-10-px;
+    }
+  }
+
+  .title-bx {
+    @apply text-d-10-px -mt-d-20-px tracking-0.25 trans-out-700;
   }
 }
 
@@ -24,5 +36,11 @@
 @screen s-large {
   .navbar {
     @apply h-d-64-px;
+
+    .navbar-bx {
+      .title-bx {
+        @apply tracking-0.15;
+      }
+    }
   }
 }
