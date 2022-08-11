@@ -1,0 +1,28 @@
+.card-con,
+.navbar {
+  @apply overflow-hidden p-d-4-px w-full;
+}
+
+.navbar {
+  @apply flex flex-nowrap bg-agency-white h-d-80-px trans-out-700  items-center content-center justify-center min-w-d-240-px;
+}
+
+.navbar-bx {
+  @apply overflow-hidden flex flex-col items-center content-center justify-center w-full h-full max-h-full;
+
+  &.is-logo {
+    @apply max-h-d-72-px;
+  }
+}
+
+@screen xl-med {
+  .navbar {
+    @apply h-d-72-px;
+  }
+}
+
+@screen s-large {
+  .navbar {
+    @apply h-d-64-px;
+  }
+}
