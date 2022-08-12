@@ -17,7 +17,7 @@
   @apply flex flex-nowrap bg-agency-white h-d-80-px trans-out-700  items-center content-center justify-center min-w-d-240-px;
 }
 
-.navbar-bxx {
+.headbar-bxx {
   @apply overflow-hidden flex flex-col items-center trans-out-700 content-center justify-center w-full h-full max-h-full;
 
   &.is-logo {
@@ -50,7 +50,7 @@
 }
 
 @screen xl-med {
-  .navbar {
+  .headbar {
     @apply h-d-72-px;
   }
 
@@ -60,10 +60,10 @@
 }
 
 @screen s-large {
-  .navbar {
+  .headbar {
     @apply h-d-64-px;
 
-    .navbar-bxx {
+    .headbar-bxx {
       .title-bx {
         @apply tracking-0.15;
       }

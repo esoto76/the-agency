@@ -2,17 +2,17 @@
   @apply trans-out-700 px-d-4-px pb-d-4-px overflow-hidden fixed top-0 left-0 right-0 z-50  block w-full min-w-d-320-px;
 
   &.is-scroll {
-    .navbar {
+    .headbar {
       @apply shadow-md;
     }
   }
 }
 
-.navbar {
+.headbar {
   @apply con-box flex flex-nowrap bg-agency-white h-d-80-px items-center content-center justify-center min-w-d-240-px;
 }
 
-.navbar-bx {
+.headbar-bx {
   @apply con-box flex items-center content-center justify-center w-full h-full max-h-full;
 
   .title-bx {
@@ -29,7 +29,7 @@
 }
 
 @screen xl-med {
-  .navbar-bx {
+  .headbar-bx {
     &.is-logo-bx {
       #logoSvg {
         @apply -mt-d-10-px;
@@ -39,7 +39,7 @@
 }
 
 @screen s-large {
-  .navbar-bx {
+  .headbar-bx {
     .title-bx {
       @apply -mt-d-20-px;
     }

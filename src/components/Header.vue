@@ -5,8 +5,8 @@ const { title } = useMainStore();
 
 <template>
   <header class="header">
-    <div class="navbar">
-      <div class="navbar-bx is-logo-bx">
+    <div class="headbar">
+      <div class="headbar-bx is-logo-bx">
         <LogoSvg />
         <h1 class="title-bx">{{ title }}</h1>
       </div>
