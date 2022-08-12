@@ -12,3 +12,7 @@ body {
 .trans-out-700 {
   @apply ease-out duration-700 transition-all;
 }
+
+.con-box {
+  @apply trans-out-700 overflow-hidden p-d-4-px w-full;
+}
