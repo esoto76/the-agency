@@ -1,7 +1,8 @@
 .navbox {
-  &.card {
-    @apply px-0;
-  }
+  @apply trans-out-700 py-d-4-px overflow-hidden flex flex-col flex-nowrap   items-center content-center justify-center w-full order-2;
+}
+.navbox-inner {
+  @apply trans-out-700 overflow-hidden flex flex-col flex-nowrap bg-agency-white  items-center content-center justify-center w-full h-full;
 }
 
 .nav-btn {
@@ -34,4 +35,10 @@ a {
 
 .nav-btn-title {
   @apply trans-out-700 overflow-hidden justify-start content-center items-center flex w-full text-d-20-px leading-none capitalize font-semibold pl-d-24-px text-agency-dark;
+}
+
+@screen xl-med {
+  .navbox {
+    @apply py-0 max-w-sm order-1;
+  }
 }

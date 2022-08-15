@@ -2,9 +2,23 @@
   @apply trans-out-700 overflow-hidden px-d-4-px w-full flex items-center content-center justify-start pt-d-88-px -mt-d-4-px min-h-screen flex-col;
 }
 
+.content-top-bx {
+  @apply trans-out-700 overflow-hidden  w-full flex items-center content-center justify-center flex-col;
+}
+
 @screen xl-med {
   .content-bx {
     @apply pt-d-80-px;
+
+    .content-top-bx {
+      @apply flex-row flex-nowrap items-stretch;
+
+      .navbox {
+        &.card {
+          @apply h-full;
+        }
+      }
+    }
   }
 }
 

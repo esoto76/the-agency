@@ -1,5 +1,5 @@
 .banner {
-  @apply trans-out-700 overflow-hidden p-d-4-px w-full max-h-screen flex items-center content-center justify-center   flex-col bg-agency-white;
+  @apply trans-out-700 overflow-hidden p-d-4-px w-full max-h-screen flex items-center content-center justify-center   flex-col bg-agency-white order-1;
 }
 
 .banner-inner {
@@ -11,6 +11,9 @@
 }
 
 @screen xl-med {
+  .banner {
+    @apply order-2;
+  }
   .banner-inner {
     @apply max-h-s-med;
   }

@@ -3,8 +3,10 @@
 <template>
   <Header />
   <div class="content-bx">
-    <Banner />
-    <Navbox />
+    <div class="content-top-bx">
+      <Banner />
+      <Navbox />
+    </div>
   </div>
   <Footer />
 </template>
