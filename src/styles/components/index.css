@@ -1,7 +1,7 @@
 @import './logo-svg.css';
 @import './header.css';
 @import './content-box.css';
-@import './banner-box.css';
+@import './banner.css';
 
 .card-con {
   @apply overflow-hidden p-d-4-px w-full;

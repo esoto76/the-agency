@@ -5,7 +5,7 @@ import EhoSvg from "./components/EhoSvg.vue";
 <template>
   <Header />
   <div class="content-bx">
-    <BannerBox />
+    <Banner />
   </div>
   <footer class="card-con foot-bx">
     <div class="footer-bx is-eho"><EhoSvg /></div>

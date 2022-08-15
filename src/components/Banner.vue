@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="banner-bx">
+  <div class="banner">
     <img src="/fb-cover.png" />
   </div>
 </template>
