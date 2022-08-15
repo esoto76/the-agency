@@ -8,7 +8,4 @@ import EhoSvg from "./components/EhoSvg.vue";
     <Banner />
   </div>
   <Footer />
-  <footer class="card-con foot-bx">
-    <div class="footer-bx is-eho"><EhoSvg /></div>
-  </footer>
 </template>

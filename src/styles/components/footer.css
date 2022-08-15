@@ -1,7 +1,31 @@
 .footer {
   @apply trans-out-700 overflow-hidden p-d-4-px w-full block min-w-d-240-px;
+
+  .card {
+    &.is-info-card {
+      .card-inner {
+        @apply bg-transparent;
+      }
+    }
+  }
 }
 
 .footer-inner {
   @apply trans-out-700 overflow-hidden flex flex-col flex-nowrap bg-agency-white  items-center content-center justify-center;
+}
+
+.footer-bx {
+  @apply overflow-hidden w-full flex items-center content-center justify-center;
+
+  &.is-eho {
+    @apply h-d-88-px w-d-88-px;
+  }
+}
+
+@screen xl-med {
+  .footer {
+    .footer-inner {
+      @apply flex-row;
+    }
+  }
 }

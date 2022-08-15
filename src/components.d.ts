@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     EhoSvg: typeof import('./components/EhoSvg.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
+    InfoCard: typeof import('./components/InfoCard.vue')['default']
     LogoSvg: typeof import('./components/LogoSvg.vue')['default']
   }
 }

@@ -1,0 +1,33 @@
+.card {
+  @apply trans-out-700 overflow-hidden p-d-4-px w-full block;
+  &.is-info-card {
+  }
+}
+
+.card-inner {
+  @apply trans-out-700 overflow-hidden flex flex-col flex-nowrap bg-agency-white  items-center content-center justify-center w-full;
+}
+
+.card-body {
+  @apply trans-out-700 overflow-hidden flex flex-col flex-nowrap  items-center content-center justify-center w-full;
+}
+
+.info-card-txt {
+  @apply trans-out-700 overflow-hidden flex flex-nowrap  items-center content-center justify-center w-full capitalize text-d-12-px font-semibold text-agency-gray leading-tight max-w-d-240-px;
+
+  &.is-name {
+    @apply uppercase text-agency font-bold select-none text-d-20-px;
+  }
+
+  &.is-title {
+    @apply mb-d-8-px border-b-d-2-px border-b-agency pb-d-8-px;
+  }
+
+  &.is-street {
+    @apply text-agency-dark;
+  }
+
+  &.is-phone {
+    @apply text-agency text-d-16-px;
+  }
+}
