@@ -111,8 +111,16 @@
       fill="#3b3b3b"
       d="M410.14,818.77v7.13h-36.35v-58.74h7.47v51.61h28.88Z"
     />
-    <path class="eho-path" fill="#3b3b3b" d="M695.13,910.03h-8.66v-70.81h8.66v70.81Z" />
-    <path class="eho-path" fill="#3b3b3b" d="M696.72,825.96h-7.31v-58.74h7.31v58.74Z" />
+    <path
+      class="eho-path"
+      fill="#3b3b3b"
+      d="M695.13,910.03h-8.66v-70.81h8.66v70.81Z"
+    />
+    <path
+      class="eho-path"
+      fill="#3b3b3b"
+      d="M696.72,825.96h-7.31v-58.74h7.31v58.74Z"
+    />
     <path
       class="eho-path"
       fill="#3b3b3b"
