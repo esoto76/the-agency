@@ -210,6 +210,9 @@ module.exports = {
         ...theme("height"),
         ...theme("screens"),
       }),
+      borderWidth: (theme) => ({
+        ...theme("spacing"),
+      }),
       letterSpacing: {
         0.125: "0.125em",
         0.15: "0.15em",
