@@ -1,3 +1,23 @@
 .banner {
-  @apply trans-out-700 overflow-hidden p-d-4-px w-full flex items-center content-center justify-center   flex-col bg-agency-white;
+  @apply trans-out-700 overflow-hidden p-d-4-px w-full max-h-screen flex items-center content-center justify-center   flex-col bg-agency-white;
+}
+
+.banner-inner {
+  @apply trans-out-700 overflow-hidden w-full flex items-center content-center justify-center  flex-col max-h-sm;
+
+  img {
+    @apply trans-out-700 w-full;
+  }
+}
+
+@screen xl-med {
+  .banner-inner {
+    @apply max-h-s-med;
+  }
+}
+
+@screen s-large {
+  .banner-inner {
+    @apply max-h-med;
+  }
 }

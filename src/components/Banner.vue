@@ -2,6 +2,6 @@
 
 <template>
   <div class="banner">
-    <img src="/fb-cover.png" />
+    <div class="banner-inner"><img src="/fb-cover.png" alt="img" /></div>
   </div>
 </template>
