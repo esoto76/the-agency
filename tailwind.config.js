@@ -194,13 +194,16 @@ module.exports = {
       }),
       minWidth: (theme) => ({
         ...theme("spacing"),
+        ...theme("screens"),
       }),
       maxWidth: (theme) => ({
         ...theme("spacing"),
+        ...theme("screens"),
       }),
       minHeight: (theme) => ({
         ...theme("spacing"),
         ...theme("height"),
+        ...theme("screens"),
       }),
       maxHeight: (theme) => ({
         ...theme("spacing"),
