@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Banner: typeof import('./components/Banner.vue')['default']
     EhoSvg: typeof import('./components/EhoSvg.vue')['default']
+    Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
     LogoSvg: typeof import('./components/LogoSvg.vue')['default']
   }

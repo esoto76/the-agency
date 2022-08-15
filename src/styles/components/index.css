@@ -2,6 +2,7 @@
 @import './header.css';
 @import './content-box.css';
 @import './banner.css';
+@import './footer.css';
 
 .card-con {
   @apply overflow-hidden p-d-4-px w-full;
@@ -15,7 +16,7 @@
   @apply overflow-hidden w-full text-center select-none text-agency-gray uppercase font-bold leading-none;
 }
 
-.foot-bx {
+.foots-bx {
   @apply flex flex-nowrap bg-agency-white h-d-80-px trans-out-700  items-center content-center justify-center min-w-d-240-px;
 }
 
@@ -39,11 +40,11 @@
   @apply pt-d-88-px trans-out-700 min-h-screen;
 }
 
-.foot-bx {
+.foots-bx {
   @apply h-auto;
 }
 
-.footer-bx {
+.footser-bx {
   @apply overflow-hidden w-full flex items-center content-center justify-center;
 
   &.is-eho {
