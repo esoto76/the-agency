@@ -13,5 +13,6 @@ declare module '@vue/runtime-core' {
     Header: typeof import('./components/Header.vue')['default']
     InfoCard: typeof import('./components/InfoCard.vue')['default']
     LogoSvg: typeof import('./components/LogoSvg.vue')['default']
+    Navbox: typeof import('./components/Navbox.vue')['default']
   }
 }

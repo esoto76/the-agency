@@ -1,0 +1,37 @@
+.navbox {
+  &.card {
+    @apply px-0;
+  }
+}
+
+.nav-btn {
+  @apply trans-out-700 overflow-hidden justify-center content-center items-center flex w-full;
+
+  &.is-exact-active,
+  &.is-active {
+    @apply select-none cursor-auto;
+
+    .nav-btn-title {
+      @apply text-agency;
+    }
+  }
+}
+
+a {
+  &.is-exact-active,
+  &.is-active {
+    @apply select-none;
+  }
+}
+
+.nav-btn-icon-bx {
+  @apply trans-out-700 overflow-hidden justify-center content-center items-center flex flex-col h-d-64-px w-d-64-px;
+
+  .material-icons {
+    @apply trans-out-700 text-d-32-px text-agency;
+  }
+}
+
+.nav-btn-title {
+  @apply trans-out-700 overflow-hidden justify-start content-center items-center flex w-full text-d-20-px leading-none capitalize font-semibold pl-d-24-px text-agency-dark;
+}

@@ -4,12 +4,13 @@
 @import './card.css';
 @import './banner.css';
 @import './footer.css';
+@import './navbox.css';
 
 .card-con {
   @apply overflow-hidden p-d-4-px w-full;
 }
 
-.navbox {
+.navboxxxx {
   @apply fixed top-0 left-0 right-0 z-50 bg-ta-grey-3;
 }
 

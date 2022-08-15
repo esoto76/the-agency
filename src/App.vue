@@ -1,11 +1,10 @@
-<script setup lang="ts">
-import EhoSvg from "./components/EhoSvg.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <Header />
   <div class="content-bx">
     <Banner />
+    <Navbox />
   </div>
   <Footer />
 </template>
