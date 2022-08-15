@@ -28,6 +28,7 @@ export default defineConfig({
     AutoImport({
       imports: ["vue", "vue-router", "@vueuse/head", "vue/macros", "pinia"],
       dts: "./src/auto-imports.d.ts",
+      dirs: ["./src/stores/**"],
       eslintrc: {
         enabled: true,
         filepath: "./.eslintrc-auto-import.json",

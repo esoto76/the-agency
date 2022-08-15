@@ -66,6 +66,7 @@
     "useCssModule": true,
     "useCssVars": true,
     "useHead": true,
+    "useMainStore": true,
     "useRoute": true,
     "useRouter": true,
     "useSlots": true,
