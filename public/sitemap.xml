@@ -5,7 +5,7 @@
             http://127.0.0.1:5173/
         </loc>
         <lastmod>
-            2022-08-16T00:35:15.240Z
+            2022-08-16T00:46:37.575Z
         </lastmod>
         <changefreq>
             daily
@@ -19,7 +19,21 @@
             http://127.0.0.1:5173/rentals
         </loc>
         <lastmod>
-            2022-08-16T00:35:15.240Z
+            2022-08-16T00:46:37.575Z
+        </lastmod>
+        <changefreq>
+            daily
+        </changefreq>
+        <priority>
+            1.0
+        </priority>
+    </url>
+    <url>
+        <loc>
+            http://127.0.0.1:5173/contact
+        </loc>
+        <lastmod>
+            2022-08-16T00:46:37.575Z
         </lastmod>
         <changefreq>
             daily

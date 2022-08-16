@@ -7,6 +7,7 @@
     }
   }
 
+  &.is-contact,
   &.is-rentals {
     iframe {
       @apply h-screen w-full overflow-y-auto;
