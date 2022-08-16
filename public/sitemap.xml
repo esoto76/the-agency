@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>
-            http://127.0.0.1:5173/contact
+            https://theagencyrepm.com/contact
         </loc>
         <lastmod>
-            2022-08-16T14:43:48.141Z
+            2022-08-16T15:24:57.822Z
         </lastmod>
         <changefreq>
             daily
@@ -16,10 +16,10 @@
     </url>
     <url>
         <loc>
-            http://127.0.0.1:5173/
+            https://theagencyrepm.com/
         </loc>
         <lastmod>
-            2022-08-16T14:43:48.141Z
+            2022-08-16T15:24:57.822Z
         </lastmod>
         <changefreq>
             daily
@@ -30,10 +30,10 @@
     </url>
     <url>
         <loc>
-            http://127.0.0.1:5173/rentals
+            https://theagencyrepm.com/rentals
         </loc>
         <lastmod>
-            2022-08-16T14:43:48.141Z
+            2022-08-16T15:24:57.822Z
         </lastmod>
         <changefreq>
             daily

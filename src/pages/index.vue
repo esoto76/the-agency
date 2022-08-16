@@ -1,5 +1,20 @@
 <script setup lang="ts">
-const { locatorService, moveOutService, propertyManagementService } = useMainStore();
+const { locatorService, moveOutService, propertyManagementService } =
+  useMainStore();
+const siteData = reactive({
+  title: `The Agency - Real Estate and Property Management`,
+  description: `Real Estate and Property Management Company.`,
+});
+
+useHead({
+  title: computed(() => siteData.title),
+  meta: [
+    {
+      name: `description`,
+      content: computed(() => siteData.description),
+    },
+  ],
+});
 </script>
 <template>
   <section class="page is-landing">
@@ -24,11 +39,16 @@ const { locatorService, moveOutService, propertyManagementService } = useMainSto
       </div>
       <div class="landing-grid-bx is-pm-grid">
         <div class="landing-grid-title-bx">
-          <h3 class="landing-grid-title">{{ propertyManagementService.title }}</h3>
+          <h3 class="landing-grid-title">
+            {{ propertyManagementService.title }}
+          </h3>
         </div>
         <div class="landing-grid-bx-body">
           <ul>
-            <li v-for="(t, i) in propertyManagementService.list" :key="'pm' + i">
+            <li
+              v-for="(t, i) in propertyManagementService.list"
+              :key="'pm' + i"
+            >
               {{ t }}
             </li>
           </ul>
