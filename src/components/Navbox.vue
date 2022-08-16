@@ -36,6 +36,7 @@
       ><a
         href="https://benchmarkrentals.managebuilding.com/Resident/PublicPages/Home.aspx?ReturnUrl=%2fResident"
         class="nav-btn"
+        target="_blank"
       >
         <div class="nav-btn-icon-bx">
           <span class="material-icons">manage_accounts</span>
@@ -45,6 +46,7 @@
       <a
         href="https://benchmarkrentals.managebuilding.com/Resident/rental-application/new"
         class="nav-btn"
+        target="_blank"
       >
         <div class="nav-btn-icon-bx">
           <span class="material-icons">assignment</span>
