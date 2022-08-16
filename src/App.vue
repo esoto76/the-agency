@@ -7,6 +7,7 @@
       <Banner />
       <Navbox />
     </div>
+    <router-view></router-view>
   </div>
   <Footer />
 </template>

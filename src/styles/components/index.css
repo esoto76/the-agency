@@ -5,6 +5,7 @@
 @import './banner.css';
 @import './footer.css';
 @import './navbox.css';
+@import './page.css';
 
 .card-con {
   @apply overflow-hidden p-d-4-px w-full;
