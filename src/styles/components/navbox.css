@@ -34,7 +34,7 @@ a {
 }
 
 .nav-btn-title {
-  @apply trans-out-700 overflow-hidden justify-start content-center items-center flex w-full text-d-20-px leading-none capitalize font-semibold pl-d-24-px text-agency-dark;
+  @apply trans-out-700 overflow-hidden justify-start content-center items-center flex w-full text-d-20-px leading-none capitalize font-medium pl-d-24-px text-agency-dark;
 }
 
 @screen xl-med {
