@@ -41,7 +41,7 @@
 @screen s-large {
   .headbar-bx {
     .title-bx {
-      @apply -mt-d-20-px;
+      @apply -mt-d-16-px;
     }
     &.is-logo-bx {
       #logoSvg {

@@ -9,7 +9,9 @@
         active-class="is-active"
         exact-active-class="is-exact-active"
       >
-        <div class="nav-btn-icon-bx"><span class="material-icons">home</span></div>
+        <div class="nav-btn-icon-bx">
+          <span class="material-icons">home</span>
+        </div>
         <div class="nav-btn-title">home</div> </router-link
       ><router-link
         to="/contact"
