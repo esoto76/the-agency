@@ -1,17 +1,39 @@
 <script setup lang="ts">
-const { services } = useMainStore();
+const { locatorService, moveOutService, propertyManagementService } = useMainStore();
 </script>
 <template>
   <section class="page is-landing">
-    <div class="page-inner">
-      <div class="page-card" v-for="s in services" :key="s.name">
-        <h3 class="page-card-title">{{ s.title }}</h3>
-        <template v-for="(t, i) in s.txt" :key="'txt' + i">
-          <ul v-if="Array.isArray(t)">
-            <li v-for="(tt, i) in t" :key="'tt' + i">{{ tt }}</li>
+    <div class="page-grid">
+      <div class="landing-grid-top">
+        <div class="landing-grid-bx">
+          <div class="landing-grid-title-bx">
+            <h3 class="landing-grid-title">{{ locatorService.title }}</h3>
+          </div>
+          <div class="landing-grid-bx-body">
+            <p>{{ locatorService.txt }}</p>
+          </div>
+        </div>
+        <div class="landing-grid-bx">
+          <div class="landing-grid-title-bx">
+            <h3 class="landing-grid-title">{{ moveOutService.title }}</h3>
+          </div>
+          <div class="landing-grid-bx-body">
+            <p>{{ moveOutService.txt }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-grid-bx is-pm-grid">
+        <div class="landing-grid-title-bx">
+          <h3 class="landing-grid-title">{{ propertyManagementService.title }}</h3>
+        </div>
+        <div class="landing-grid-bx-body">
+          <ul>
+            <li v-for="(t, i) in propertyManagementService.list" :key="'pm' + i">
+              {{ t }}
+            </li>
           </ul>
-          <p v-else>{{ t }}</p>
-        </template>
+          <p>{{ propertyManagementService.txt }}</p>
+        </div>
       </div>
     </div>
   </section>
