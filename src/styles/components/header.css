@@ -16,7 +16,7 @@
   @apply con-box flex items-center content-center justify-center w-full h-full max-h-full;
 
   .title-bx {
-    @apply con-box text-d-10-px -mt-d-16-px tracking-wider font-semibold;
+    @apply overflow-hidden w-full text-center select-none text-agency-gray uppercase leading-none text-d-10-px -mt-d-16-px tracking-wider font-semibold;
   }
 
   &.is-logo-bx {
