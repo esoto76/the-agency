@@ -40,7 +40,7 @@
 }
 
 .page-card-title {
-  @apply trans-out-700 overflow-hidden flex justify-center items-center content-center flex-nowrap w-full select-none bg-agency-highlight leading-loose text-agency-white uppercase font-semibold text-d-16-px py-d-4-px;
+  @apply trans-out-700 overflow-hidden flex justify-center items-center content-center flex-nowrap w-full select-none bg-agency-highlight leading-loose text-agency-white uppercase font-semibold text-d-16-px py-d-4-px min-h-d-40-px;
 }
 
 @screen xl-med {
