@@ -48,7 +48,7 @@
 }
 
 .page-grid {
-  @apply overflow-hidden w-full items-center content-center justify-start flex flex-col bg-slate-500;
+  @apply overflow-hidden w-full items-center content-center justify-start flex flex-col;
 }
 
 .landing-grid-top {
