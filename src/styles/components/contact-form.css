@@ -1,0 +1,24 @@
+.contact-form-bx {
+  @apply trans-out-700 overflow-hidden w-full p-d-4-px flex flex-col items-center justify-center content-center max-w-s-med;
+}
+
+.contact-form {
+  @apply trans-out-700 overflow-hidden p-d-4-px w-full flex flex-col items-center justify-center content-center;
+}
+
+.contact-form-title {
+  @apply trans-out-700 overflow-hidden flex justify-center items-center content-center flex-nowrap w-full select-none bg-agency-highlight leading-loose text-agency-white uppercase font-semibold text-d-16-px py-d-4-px;
+}
+
+.contact-form-entry-bx {
+  @apply mb-d-4-px overflow-hidden w-full flex flex-col items-center content-center justify-center;
+
+  label {
+    @apply overflow-hidden w-full text-left font-bold uppercase select-none leading-loose text-d-12-px  text-agency-dark;
+  }
+
+  input,
+  textarea {
+    @apply overflow-hidden w-full px-d-4-px py-d-8-px text-d-14-px;
+  }
+}
