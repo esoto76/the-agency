@@ -5,10 +5,10 @@ const { title } = useMainStore();
 <template>
   <header class="header">
     <div class="headbar">
-      <div class="headbar-bx is-logo-bx">
+      <router-link to="/" class="headbar-bx is-logo-bx">
         <LogoSvg />
         <h1 class="title-bx">{{ title }}</h1>
-      </div>
+      </router-link>
     </div>
   </header>
 </template>
