@@ -10,7 +10,7 @@
   &.is-contact,
   &.is-rentals {
     iframe {
-      @apply h-screen w-full overflow-y-auto;
+      @apply h-200vh w-full overflow-y-auto;
     }
   }
 }
