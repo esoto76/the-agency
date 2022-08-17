@@ -81,7 +81,7 @@
   @apply overflow-hidden w-full block p-d-4-px;
 
   p {
-    @apply overflow-hidden w-full block h-auto leading-tight text-d-14-px p-d-8-px text-ta-grey-1 font-medium indent-2  text-left my-d-1-px;
+    @apply select-none overflow-hidden w-full block h-auto leading-tight text-d-14-px p-d-8-px text-ta-grey-1 font-medium indent-2  text-left my-d-1-px;
   }
 
   ul {
