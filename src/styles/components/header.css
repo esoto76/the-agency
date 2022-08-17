@@ -1,9 +1,9 @@
 .header {
-  @apply trans-out-700 px-d-4-px pb-d-4-px overflow-hidden fixed top-0 left-0 right-0 z-50  block w-full min-w-d-320-px;
+  @apply trans-out-700 px-d-4-px pb-d-4-px  fixed top-0 left-0 right-0 z-900k block w-full min-w-d-320-px;
 
   &.is-scroll {
     .headbar {
-      @apply shadow-md;
+      @apply shadow-xl;
     }
   }
 }
